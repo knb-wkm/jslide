@@ -1,0 +1,91 @@
+/* body */
+body {
+    font-family: Meiryo;
+    line-height: 2.8em;
+    background: #f7f7f7;
+    color: #333;
+}
+
+/* wapper */
+#wrapper {
+    width: 1240px;
+    margin: 20px auto 0 auto;
+    padding: 0 20px 10px 20px;
+    background: #fff;
+}
+
+/* header */
+#header { 
+    padding: 10px;
+    height: 45px;
+}
+
+#header ul { 
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#header li { 
+    float: right;
+    font-size: 18px;
+    margin: 0 0 0 15px;
+    padding: 5px 15px 5px 15px;
+    font-weight: bold;
+    background: #f7f7f7;
+}
+
+/* slide area */
+.slide {
+    display: none;
+    font-family: Meiryo;
+    margin: 20px 0 40px 0;
+}
+
+.slide h1 { 
+    font-size: 48px;
+    margin: 20px 0 0 0;
+}
+.slide h2 { 
+    font-size: 36px;
+    margin: 20px 0 0 0;
+}
+.slide li { font-size: 28px; }
+.slide p {
+	 font-size: 28px;
+	 margin: 10px 0 10px 0;
+}
+.slide pre.prettyprint {
+    font-family: Lucida Console;
+    font-size: 24px;
+}
+.slide pre.example {
+	 font-family: Meiryo;
+	 font-size: 28px;
+	 margin: 10px 0 10px 0;
+}
+.slide table {
+	font-size: 20px;
+}
+.slide table th {
+	text-align:left;
+	background-color:#48484C;
+	color:#F7F7F7;
+	padding:10px 10px 10px 10px;
+}
+.slide table td{
+	background-color:#F7F7F7;
+	padding:5px 10px 5px 10px;
+}
+
+#contents {
+    padding: 20px;
+}
+
+#contents h1 {
+    font-size: 24px;
+}
+
+#contents ul {
+    list-style: none;
+    font-weight: bold;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" type="text/css" href="css/prettify.css">
+  <link rel="stylesheet" type="text/css" href="css/jslide.css">
+  <title>rails session index</title>
+</head>
+<body>
+<div id="wrapper">
+  <div id="contents">
+    <h2>勉強会資料</h2>
+    <ul>
+      <% @slides_info.each do |f| %>
+        <a href="/slides/<%= f[:fname] %>"><li><%= f[:title] %></li></a>
+      <% end %>
+    </ul>
+  </div>
+</div>
+<script src="js/jquery-2.1.1.min.js"></script>
+<script src="js/jslide.js"></script>
+<script src="js/prettify.js"></script>
+</body>
+</html>
